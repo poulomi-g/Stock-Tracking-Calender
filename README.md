@@ -19,6 +19,5 @@ To start, run `yarn` to rebuild the dependencies and then run `yarn start` to st
 1. Add `eslint` to this project: https://eslint.org/docs/user-guide/getting-started
     - Also added `.eslintrc.json` to allow the linter in the IDE to reconize React & JSX syntax
 1. Remove traces of serviceWorker: https://stackoverflow.com/a/54771291
-    - Because we won't be covering PWA (Progress Web App) with this workshop
     - You can learn more about it here: https://create-react-app.dev/docs/making-a-progressive-web-app/
 
