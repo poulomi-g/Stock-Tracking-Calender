@@ -26,9 +26,21 @@ const generateDays = (date, month) => {
 };
 
 export default (props) => {
-  return (
-    <div>
+  const { date, month, selected, select, stocks } = props;
+  const days = generateDays(date, month);
 
+  return (
+    <div className={styles.week}>
+      {
+        days.map((day) => {
+          let earningCallsForTheDay;
+          if (stocks.length) {
+            earningCallsForTheDay = stocksTimingFilter(stocks, day.date, 'day');
+          }
+
+          return <Day key={day.uniqueKey} day={day} selected={selected} select={select} stocks={earningCallsForTheDay} />;
+        })
+      }
     </div>
   );
 }
