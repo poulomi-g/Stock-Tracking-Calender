@@ -8,9 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To see the finished project, go to https://bit.ly/react-stock-calendar
 
-### To start, run `yarn` to rebuild the dependencies and then run `yarn start` to start the development server!
+### Preview
+To start, run `yarn` to rebuild the dependencies and then run `yarn start` to start the development server!
 
-### Installation steps I've already done to create this repository (assuming we start from a fresh machine):
+### Installation steps
 1. Install node: https://nodejs.org/en/download/
 1. Install yarn: https://classic.yarnpkg.com/en/docs/install
 1. Install create-react-app (CRA): https://create-react-app.dev/docs/getting-started/
